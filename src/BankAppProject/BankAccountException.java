@@ -1,7 +1,7 @@
 package BankAppProject;
-
-public class BankAccountException extends RuntimeException {
+public class BankAccountException extends Exception {
     public BankAccountException(String message) {
         super(message);
     }
 }
+

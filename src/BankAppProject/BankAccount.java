@@ -1,7 +1,8 @@
 package BankAppProject;
 import java.util.*;
 
-public class BankAccount {
+public class
+BankAccount {
 
     static long accountCounter = 10000000000000L;
 

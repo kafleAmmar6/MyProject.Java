@@ -1,28 +1,13 @@
-import java.util.*;
-
 public class Main {
-    public static void main() {
+    public static void main(String[] args) {
 
-      Scanner input = new Scanner(System.in);
+        String s1= "Ammar";
+        String s2="Utkrish";
 
-                System.out.print("Enter a number: ");
-                int number = input.nextInt();
+        System.out.println(s1);
+        System.out.println(s2);
 
-                int originalNumber = number;   // store the number
-                int reverse = 0;
 
-                // reverse the number
-                while (number != 0) {
-                    int digit = number % 10;            // get last digit
-                    reverse = reverse * 10 + digit;     // build reverse number
-                    number = number / 10;               // remove last digit
-                }
 
-                // check palindrome
-                if (originalNumber == reverse) {
-                    System.out.println(originalNumber + " is a Palindrome.");
-                } else {
-                    System.out.println(originalNumber + " is NOT a Palindrome.");
-                }
-            }
-        }
+    }
+}
